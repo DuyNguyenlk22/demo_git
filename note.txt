@@ -4,4 +4,26 @@
 + đẩy code từ local lên remote : 3 bước
 - git add -A : chọn 
 - git commit -m "tao ra trang home" : xác nhận và ghi kèm chú thích
-- git push -u origin master
+- git push -u origin master : đẩy lần đầu
+- git push : lần 2 trở đi
+
+
+
+// tạo 1 folder mới, setup git demo_buoi_1_js
+
+// push 2 lần bài 1,bài2.
+
+
+-branch : nhánh
+- git checkout -b login : tạo ra nhánh login từ nhánh hiện tại
+- git branch : list các branch hiện có
+- git merge login : đưa code từ branch vào master
+
+
+
+
++ lấy source từ 1 repo
+- git clone url . : clone source vào folder hiện tại 
+- git pull : lấy code mới nhất từ remote
+- git log : xem danh sách các lệnh commit
+- git stash : khôi phục code về commit gần nhất.
